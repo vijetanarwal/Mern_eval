@@ -33,11 +33,11 @@ type="text"
             />
           </div>
           <div >
-            <label htmlFor="email">
+     <label htmlFor="email">
               <strong>Email</strong>
             </label>
-            <input
-              type="email"
+        <input
+        type="email"
               placeholder="Enter Email"
               name="email"
               className="form-control rounded-0"
@@ -47,19 +47,19 @@ type="text"
           <div >
             <label htmlFor="email">
               <strong>Password</strong>
-            </label>
+         </label>
             <input
               type="password"
               placeholder="Enter Password"
               name="password"
-              onChange={(e) => setPassword(e.target.value)}
+     onChange={(e) => setPassword(e.target.value)}
             />
           </div>
           <button type="submit" >
-            Register
+       Register
           </button>
           </form>
-          <p>Already Have an Account</p>
+       <p>Already Have an Account</p>
           <Link to="/login" >
             Login
           </Link>
