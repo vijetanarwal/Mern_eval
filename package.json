@@ -1,0 +1,22 @@
+{
+  "name": "mern_eval",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "mongoose": "^8.14.1",
+    "react-router-dom": "^6.30.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
